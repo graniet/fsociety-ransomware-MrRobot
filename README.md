@@ -11,6 +11,16 @@
 + Crypto++
 + CURL
 
+#### G++ flags used for test
++g3
++ggdb
++O0
++Wall
++Wextra
++Wno-unused
++lcryptopp
++lcurl
+
 #### Ransomware Step
 + Initial
 + File listing
@@ -21,6 +31,10 @@
 + Ask reward & setup jester pages
 
 (For security reason the ransomware crypt only .txt but you can change on c++ file)
+
+#### Advanced
+
+In futur i'll add multiple  step (Crypt on file for free,  FAQ  ...).
 
 #### DISCLAIMER
 This is Jester ransomware like, in Mr Robot movie (coded by Darlene S1E2,3),
