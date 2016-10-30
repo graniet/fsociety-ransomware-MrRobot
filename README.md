@@ -20,6 +20,8 @@
 + Send to jester C&C (Number file...)
 + Ask reward & setup jester pages
 
+(For security reason the ransomware crypt only .txt but you can change on c++ file)
+
 #### DISCLAIMER
 This is Jester ransomware like, in Mr Robot movie (coded by Darlene S1E2,3),
 Please beware warning, after start you can't recover the files (In movie, the public key is not shared).
