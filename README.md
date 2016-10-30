@@ -12,14 +12,14 @@
 + CURL
 
 #### G++ flags used for test
-+g3
-+ggdb
-+O0
-+Wall
-+Wextra
-+Wno-unused
-+lcryptopp
-+lcurl
++ g3
++ ggdb
++ O0
++ Wall
++ Wextra
++ Wno-unused
++ lcryptopp
++ lcurl
 
 #### Ransomware Step
 + Initial
