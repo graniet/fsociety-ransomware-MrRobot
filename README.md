@@ -34,7 +34,7 @@
 
 #### Advanced
 
-In futur i'll add multiple  step (Crypt on file for free,  FAQ  ...).
+In futur i'll add multiple  step (Decrypt on file for free,  FAQ  ...).
 
 #### DISCLAIMER
 This is Jester ransomware like, in Mr Robot movie (coded by Darlene S1E2,3),
