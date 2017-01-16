@@ -32,6 +32,8 @@
 
 (For security reason the ransomware crypt only .txt but you can change on c++ file)
 
+#### please remember this  is just a PoC the ransomware is not stable is just for fun!
+
 #### Advanced
 
 In futur i'll add multiple  step (Decrypt on file for free,  FAQ  ...).
