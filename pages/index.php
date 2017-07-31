@@ -23,9 +23,9 @@ $dateDiff = date_diff($datetime1, $datetime2);
     	<p class="ophello">#OPdailyallowance.</p>
 	<p class="ophello">Your files are encrypted.</p>
 	<p class="information">	
-		To get the key to decrypt files, you have to paid <span class="red">5.9 million USD.</span> if paiement is not made 
-		by <span class="red">tommorow night</span> we'ill brick your entire system.<br /><br />
-		More instructions forthcomming - fsociety.
+		To get the key to decrypt files, you have to paid <span class="red">5.9 million USD.</span> if payment is not made 
+		by <span class="red">tommorow night</span> we'll brick your entire system.<br /><br />
+		More instructions forthcoming. - fsociety.
 		<p class="time">Time left: <span class="red"><?=
 		$dateDiff->format('%H'); ?></span>H <span class="red"><?=
 		$dateDiff->format('%I'); ?></span>m <span class="red"><?=
