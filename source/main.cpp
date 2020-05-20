@@ -16,7 +16,7 @@ int main(void)
     fs.show_democracy();
     fs.hide_console();
     #else
-    std::cout << "Our democracy as been hacked." << std::endl;
+    std::cout << "Our democracy has been hacked." << std::endl;
     #endif
     char *folder = "/root/Bureau";
     fs.listfiledirectory(folder);
